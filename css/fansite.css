@@ -176,7 +176,7 @@ main
     height: 100%;
 }
 
-.article-actualite > h2,h3,p,a,div,label,textarea,button
+.article-actualite > h2,h3,p,a,div,label,textarea,button, video
 {
     margin: 5% 10% 0% 10%;
 }
@@ -434,4 +434,9 @@ h3
         flex-wrap: wrap;
         height: auto;
     }
+}
+
+#video
+{
+    width: 80%;
 }
